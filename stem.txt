@@ -1,0 +1,16 @@
+* STEM
+** Biology
+*** Zoology
+*** Microbiology
+*** Genetics
+*** Ecology
+** Chemistry
+*** Analytical Chemistry
+*** Physical chemistry
+*** Biochemistry
+** Physics
+*** Mechanics
+**** Orbital mechanics
+*** Thermodynamics
+*** Electrodynamics
+*** Materials science
