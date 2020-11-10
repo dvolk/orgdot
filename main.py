@@ -19,12 +19,12 @@ def go(org_filepath):
     for line in open(org_filepath).readlines():
         line2 = line.strip()
         if line2 and line2[0] == '*':
-            label = line2.replace('*', '').strip()
+            label = str(line2.replace('*', '').strip())
             level = count_char_from_left(line2, '*')
             labels.append([level, label])
             if level > max_level:
                 max_level = level
-    
+
     edges = list()
     prev_label = None
     for prev_level in range(1, max_level + 1):
