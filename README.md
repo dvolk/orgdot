@@ -4,6 +4,10 @@
 
 Turn org-mode headers into a graph using networkx and graphviz
 
+## Performance
+
+Please see https://github.com/dvolk/orgdot/issues/4 for a performance evaluation
+
 ## Requirements
 
 - python 3.6+
